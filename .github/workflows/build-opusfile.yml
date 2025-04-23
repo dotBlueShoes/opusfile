@@ -24,9 +24,9 @@ jobs:
           automake
           libtool
           mingw-w64-x86_64-toolchain
+          mingw-w64-x86_64-openssl
           mingw-w64-x86_64-libogg
           mingw-w64-x86_64-opus
-          mingw-w64-x86_64-openssl
 
     - name: Build opusfile
       shell: msys2 {0}
