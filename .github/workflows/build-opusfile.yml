@@ -21,8 +21,8 @@ jobs:
           base-devel
           git
           mingw-w64-x86_64-toolchain
+          mingw-w64-x86_64-libogg
           mingw-w64-x86_64-opus
-          mingw-w64-x86_64-ogg
           mingw-w64-x86_64-openssl
 
     - name: Build opusfile
