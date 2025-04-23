@@ -20,6 +20,9 @@ jobs:
         install: >-
           base-devel
           git
+          autoconf
+          automake
+          libtool
           mingw-w64-x86_64-toolchain
           mingw-w64-x86_64-libogg
           mingw-w64-x86_64-opus
